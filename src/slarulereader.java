@@ -48,10 +48,10 @@ public class slarulereader {
     	
  		System.out.println(desc);
  		
- 		String[] new22 = desc.split("\\{OR\\}");
+ 		String[] sla = desc.split("\\{OR\\}");
  		
- 		System.out.println("First sla condition : " + new22[0]);
- 		System.out.println("Second sla condition : " + new22[1]);
+ 		System.out.println("First sla condition : " + sla[0]);
+ 		System.out.println("Second sla condition : " + sla[1]);
 
 
     }
